@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './style'
 
 import {
   Navbar,
@@ -13,7 +14,6 @@ import {
   Footer,
 } from './components/index'
 
-import styles from './style'
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -23,7 +23,9 @@ const App = () => (
       </div>
     </div>
     <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>Hero</div>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+      </div>
     </div>
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
