@@ -13,11 +13,9 @@ const CardDeal = () => {
           steps.
         </h2>
         <p className={`${styles.paragraph} max-w[470px] mt-5`}>
-          Take control of your finances with our intuitive tools. Track
-          expenses, view transaction history, and receive real-time updates to
-          stay on top of your financial activities effortlessly. With our secure
-          platform, enjoy peace of mind while handling your financial tasks
-          seamlessly and efficiently.
+          Explore personalised card options and discover the perfect match for
+          your financial needs. Our simple process makes finding the best card
+          deals quick and hassle-free.
         </p>
       </div>
       <div className={layout.sectionImg}>
